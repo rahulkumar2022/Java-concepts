@@ -7,5 +7,7 @@ public class MainImpl {
         int result = opeartion.calculate(15000, 100);
         System.out.println(result);
         
+        Measurable a = String::length;
+        System.out.println(a.length("Testing"));
     }
 }
